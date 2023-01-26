@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Axelle-Regular';
+    src: url('../fonts/Axelle-Regular.otf');
+}
+
+body{
+    font-family: 'Axelle-Regular', 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* mobile first responsive */
+
+header{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 0;
+    box-shadow: lightgray 0 1px 1px;
+}
+
+footer{
+    min-height: 120px;
+    background-color: #75b48d;
+    color: white;
+}
+
+section{
+    padding: 20px 20px 40px;
+    font-size: 32px;
+}
+
+article{
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 68px;
+    margin: 20px 0;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.red-text{
+    color: #e77364;
+}
+
+.welcome-section{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section img{
+    width: 90%;
+    min-width: 240px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+.bg-lightgreen{
+    background-color: #fdf4d4;
+}
+
+.bg-ligthgrey{
+    background-color: #f9f9f9;
+}
+
+.bg-lightgreen h1, .bg-ligthgrey h1{
+    color: #75b48d;
+}
+
+.home-picto{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.proposition hr{
+    width: 70%;
+}
+
+.outils article p::before{
+    content: 'o';
+    padding-right: 10px;
+}
+
+.valeurs-ardoise{
+    position: relative;
+}
+
+.valeurs-ardoise .home-picto{
+    width: 230px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 320px;
+}
+
+.valeurs-ardoise ul{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 100px;
+    font-size: 31px;
+}
+
+.gens-ardoise-img{
+    background-color: grey;
+    margin-bottom: -75px;
+}
+
+.liste-connaissances{
+    margin: 25px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.liste-connaissances li{
+    padding: 25px 50px;
+    border: 2px solid #e77364;
+    border-radius: 50%;
+    text-align: center;
+    width: min-content;
+    background-color: #e773643d;
+    margin: 0 auto 15px;
+}
+
+.nous{
+    position: relative;
+    padding-top: 45px;
+}
+
+.nous h1{
+    color: #75b48d;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 21px;
+    width: 65%;
+    padding: 6px;
+}
+
+.nous > div{
+    padding: 55px 25px 10px;
+    margin: 20px;
+    border: 8px solid #fdf4d4;
+    border-radius: 10px;
+}
