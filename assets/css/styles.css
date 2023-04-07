@@ -4,11 +4,17 @@
 }
 
 body{
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
     margin: 0;
     color: #2e2e2e;
     font-size: 16px;
 }
+
+.police{
+    font-family: 'Axelle-Regular', 'Arial', sans-serif;
+    font-size: 1.7em;
+}
+
 
 h1, h2, h3, nav, .valeurs-ardoise, .contact-link, footer{
     font-family: 'Axelle-Regular', 'Arial', sans-serif;
@@ -61,8 +67,14 @@ article{
 }
 
 h1{
-    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+    font-size: 20px;
     text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+h1>span{
+    background-color: #f2ebd1;
 }
 
 h2{
@@ -96,7 +108,7 @@ h3{
     max-width: 600px;
     display: block;
     margin: 0 auto;
-    padding: 80px 0 40px;
+    padding: 100px 0 40px;
 }
 
 .welcome-section p{
@@ -140,9 +152,31 @@ h3{
     max-height: 230px;
 }
 
-.home-picto.arrosePousse{
-    padding: 35px 0; 
+.home-picto.plante{
+    padding: 60px 0px 30px 7px; 
 }
+
+.arrosePousse{
+    position: relative;
+    top: 150px;
+    margin-top: 150px;
+}
+
+.arrosePousse .arrosoir{
+    height: 110px;
+    position: absolute;
+    top: -180px;
+    left: 65px;
+}
+
+.arrosePousse .pluie{
+    height: 150px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 .proposition .row{
     min-height: 250px;
@@ -174,12 +208,12 @@ h3{
 
 .valeurs-ardoise{
     position: relative;
-    width: 230px;
+    width: 180px;
     margin: auto;
 }
 
 .valeurs-ardoise .home-picto{
-    width: 230px;
+    width: 160px;
     max-width: 100%;
     margin: 0 auto;
     max-height: 320px;
@@ -188,21 +222,21 @@ h3{
 .valeurs-ardoise ul{
     position: absolute;
     z-index: 12;
-    top: 56px;
-    left: 32px;
-    width: 150px;
-    font-size: 32px;
+    top: 46px;
+    left: -3px;
+    width: 144px;
+    font-size: 30px;
+    list-style-type: none
 }
 
 .valeurs-ardoise li{
-    line-height: 22px;
+    line-height: 14px;
     margin-bottom: 20px;
 }
 
 .gens-ardoise-img{
-    background-color: rgb(255, 252, 239);
-    margin-bottom: -75px;
-    width: 200px;
+    margin-bottom: -55px;
+    width: 155px;
 }
 
 .liste-connaissances{
@@ -246,7 +280,7 @@ h3{
 }
 
 .contact-link{
-    font-size: 50px;
+    font-size: 37px;
     color: black;
 }
 
@@ -289,9 +323,6 @@ h3{
         font-size: 60px;
     }
 
-    .outils .row{
-        padding: 0 80px;
-    }
 
     .outils article p{
         padding-top: 25px;
