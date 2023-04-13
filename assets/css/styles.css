@@ -156,10 +156,14 @@ h3{
     padding: 60px 0px 30px 7px; 
 }
 
+.row-proposition{
+    padding-top: 125px;
+}
+
 .arrosePousse{
     position: relative;
-    top: 150px;
-    margin-top: 150px;
+    /* top: 150px;
+    margin-top: 150px; */
 }
 
 .arrosePousse .arrosoir{
@@ -192,8 +196,15 @@ h3{
 }
 
 .outils article p::before{
+    font-family: 'Axelle-Regular', sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
     content: 'o';
-    padding-right: 10px;
+    padding-right: 8px;
+}
+
+.outils a{
+    color: #e77364;
 }
 
 .methodo-arrow{
@@ -204,6 +215,10 @@ h3{
     margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
+}
+
+.rotation{
+    transform: rotate(-140deg);
 }
 
 .valeurs-ardoise{
@@ -237,6 +252,7 @@ h3{
 .gens-ardoise-img{
     margin-bottom: -55px;
     width: 155px;
+    background-color: #fff;
 }
 
 .liste-connaissances{
@@ -263,7 +279,7 @@ h3{
 
 .nous h2{
     color: #75b48d;
-    background-color: white;
+    background-color: #f2ebd1;
     position: absolute;
     top: 15px;
     left: 21px;
@@ -275,7 +291,7 @@ h3{
 .nous > div{
     padding: 25px 25px 10px;
     margin: 20px;
-    border: 8px solid #fdf4d4;
+    border: 8px solid #fff;
     border-radius: 10px;
 }
 
