@@ -3,6 +3,11 @@
     src: url('../fonts/Axelle-Regular.otf');
 }
 
+@font-face {
+    font-family: 'Axelletitresnum';
+    src: url('../fonts/Axelletitresnum-Regular.otf');
+}
+
 body{
     font-family: 'Trebuchet MS', 'Verdana', sans-serif;
     margin: 0;
@@ -13,6 +18,11 @@ body{
 .police{
     font-family: 'Axelle-Regular', 'Arial', sans-serif;
     font-size: 1.7em;
+}
+
+.number{
+    font-family: 'Axelletitresnum', 'Arial', sans-serif;
+
 }
 
 
@@ -73,7 +83,9 @@ h1{
     max-width: 900px;
     margin: auto;
 }
+
 h1>span{
+    padding: 0 4px;
     background-color: #f2ebd1;
 }
 
@@ -207,14 +219,69 @@ h3{
     color: #e77364;
 }
 
+.methodo article{
+    padding: 20px 0;
+}
+
 .methodo-arrow{
     height: 120px;
 }
 .methodo-arrow > img{
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 100%;
     max-height: 100%;
+}
+
+.lien1-img{
+    padding-left: 20%;
+    margin-top: -20px;
+}
+.lien1-text{
+    padding-left: calc(20% + 200px);
+    margin-top: -20px;
+}
+
+.lien2-img{
+    padding-left: 45%;
+    margin-top: -10px;
+}
+.lien2-text{
+    padding-left: 15%;
+    margin-top: 5px;
+}
+
+.lien3-img{
+    padding-left: 18%;
+    margin-top: 20px;
+}
+.lien3-img>img{
+    rotate: 17deg;
+}
+.lien3-text{
+    padding-left: calc(18% + 175px);
+    margin-top: 0px;
+}
+
+.lien4-img{
+    padding-left: 30%;
+    margin-top: 0px;
+}
+.lien4-img>img{
+    rotate: -12deg;
+}
+.lien4-text{
+    padding-left: 15%;
+    margin-top: 15px;
+}
+
+.lien5-img{
+    padding-left: 32%;
+    margin-top: -18px;
+}
+.lien5-text{
+    padding-left: 50%;
+    margin-top: -20px;
 }
 
 .rotation{
@@ -252,7 +319,6 @@ h3{
 .gens-ardoise-img{
     margin-bottom: -55px;
     width: 155px;
-    background-color: #fff;
 }
 
 .liste-connaissances{
@@ -293,6 +359,13 @@ h3{
     margin: 20px;
     border: 8px solid #fff;
     border-radius: 10px;
+}
+
+.nous-valeurs{
+    align-self: center;
+    padding: 25px 0px;
+    border-radius: 10%;
+    margin-left: 30px;
 }
 
 .contact-link{
