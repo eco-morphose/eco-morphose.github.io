@@ -172,7 +172,11 @@ h3{
 }
 
 .row-proposition{
-    padding-top: 125px;
+    padding-top: 0;
+}
+
+.mesurePousse{
+    padding-bottom: 150px;
 }
 
 .arrosePousse{
@@ -355,58 +359,6 @@ h3{
     max-height: 100%;
 }
 
-
-/* .lien1-img{
-    padding-left: 20%;
-    margin-top: -20px;
-}
-.lien1-text{
-    padding-left: calc(20% + 200px);
-    margin-top: -20px;
-}
-
-.lien2-img{
-    padding-left: 45%;
-    margin-top: -10px;
-}
-.lien2-text{
-    padding-left: 15%;
-    margin-top: 5px;
-}
-
-.lien3-img{
-    padding-left: 18%;
-    margin-top: 20px;
-}
-.lien3-img>img{
-    rotate: 17deg;
-}
-.lien3-text{
-    padding-left: calc(18% + 175px);
-    margin-top: 0px;
-}
-
-.lien4-img{
-    padding-left: 30%;
-    margin-top: 0px;
-}
-.lien4-img>img{
-    rotate: -12deg;
-}
-.lien4-text{
-    padding-left: 15%;
-    margin-top: 15px;
-}
-
-.lien5-img{
-    padding-left: 32%;
-    margin-top: -18px;
-}
-.lien5-text{
-    padding-left: 50%;
-    margin-top: -20px;
-} */
-
 .rotation{
     transform: rotate(-140deg);
 }
@@ -485,6 +437,8 @@ h3{
 }
 
 .nous-valeurs{
+    width: min-content !important;
+    background-color: white;
     align-self: center;
     padding: 25px 0px;
     border-radius: 10%;
@@ -498,7 +452,6 @@ h3{
 
 .contact-link:last-of-type{
    text-decoration: none;
-   line-height: 30px;
 }
 
 .contact-link:hover{
@@ -507,12 +460,17 @@ h3{
 
 .contact-link img{
     width: 240px;
-    margin-top: -60px;
+    margin-top: -43px;
+}
+
+.contact-link-email img{
+    width: 140px;
+    margin-top: -5px;
 }
 
 .contact-link-follow{
     font-size: 35px;
-    margin-top: -80px;
+    margin-top: -70px;
     display: block;
     color: black;
 }
@@ -526,7 +484,27 @@ h3{
     color: #75b48d;
 }
 
+.nous .hide-for-mobile{
+    display: none;
+}
+
+.nous .show-for-mobile{
+    display: block;
+}
+
 @media screen and (min-width: 768px) {
+    .nous .hide-for-mobile{
+        display: block;
+    }
+
+    .nous .show-for-mobile{
+        display: none;
+    }
+
+    .nous .w-md-75{
+        width: 75% !important;
+    }
+
     section{
         padding: 20px 120px 40px;
     }
@@ -541,7 +519,15 @@ h3{
 
     .welcome-section p{
         font-size: 12px
-}
+    }
+
+    .row-proposition{
+        padding-top: 125px;
+    }
+
+    .mesurePousse{
+        padding-bottom: 0;
+    }
 
     h1{
         font-size: 20px;
