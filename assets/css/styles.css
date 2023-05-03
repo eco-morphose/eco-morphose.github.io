@@ -280,10 +280,11 @@ h3{
     border-right: #e77364 2px dashed;
     padding-right: 2rem;    
     text-align: end;
+    margin-bottom: 25px;
 }
 .methodo-desc::after{
     content: ' ';
-    width: 40px;
+    width: 0;
     height: 1px;
     position: absolute;
     top: 50%;
@@ -540,6 +541,13 @@ h3{
     .nous h2{
         left: 120px;
         font-size: 60px;
+    }
+
+    .methodo-desc{
+        margin-bottom: 1rem;
+    }
+    .methodo-desc::after{
+        width: 40px;
     }
 }
 
