@@ -67,8 +67,9 @@ main{
 
 footer{
     min-height: 120px;
-    background-color: #366448;
+    background-color: #75b48d;
     color: white;
+    font-size: 1.8rem;
 }
 
 section{
@@ -155,11 +156,17 @@ h3{
 }
 
 .home-picto{
-    max-height: 200px;
+    max-height: 180px;
     display: block;
     margin: 0 auto;
     position: relative;
     z-index: 10;
+}
+.row-proposition .home-picto{
+    max-height: 195px;
+}
+.home-oeil-systemique-img{
+    max-height: 200px;
 }
 
 .home-picto.position-absolute{
@@ -173,6 +180,10 @@ h3{
 
 .row-proposition{
     padding-top: 0;
+}
+
+.row-proposition p{
+    line-height: 25px;
 }
 
 .mesurePousse{
@@ -224,13 +235,13 @@ h3{
     max-width: 500px;
 }
 
-.outils article p::before{
+/* .outils article p::before{
     font-family: 'Axelle-Regular', sans-serif;
     font-size: 1.2em;
     font-style: normal;
     content: 'o';
     padding-right: 8px;
-}
+} */
 
 .outils a{
     color: #e77364;
@@ -241,7 +252,7 @@ h3{
     font-style: italic;
     text-align: center;
     color: #e77364;
-    border: 1px dashed #e77364;
+    border: 2px dashed #e77364;
     border-radius: 5px;
     padding: 20px 35px;
     width: fit-content;
@@ -253,7 +264,7 @@ h3{
 
 .section-contact:hover{
     color: #e77364;
-    border: 1px solid #e77364;
+    border: 2px dotted #e77364;
 }
 
 /* .section-contact.methodo-contact{
@@ -320,9 +331,10 @@ h3{
     width: 100%;
     border-left: #e77364 2px dashed;
 }
-.methodo li{
+/* .methodo li{
     list-style-type: none;
-}
+} */
+
 .methodo ul::before{
     content: ' ';
     width: 10px;
@@ -569,12 +581,12 @@ h3{
         width: 80%;
     }
 
-    .outils-left{
-        border-right: 1px dashed #e77364;
-    }
+    /* .outils-left{
+        border-right: 2px dashed #e77364;
+    } */
 
     .outils-right{
-        border-left: 1px dashed #e77364;
+        border-left: 2px dashed #e77364;
     }
 
     .proposition .col-lg-4{
