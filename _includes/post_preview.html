@@ -1,0 +1,11 @@
+
+
+<li class="card p-2 position-relative">
+    <a href="{{ post.url }}">
+        <img src="{{ post.image }}" class="card-img-top p-4">
+        <div class="card-body border-top">
+            <h3 class="card-title">{{ post.title }}</h3>
+            <div class="card-text">{{ post.excerpt| truncatewords: 15 }}</p>
+        </div>
+    </a>
+</li>

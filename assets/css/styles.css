@@ -151,10 +151,6 @@ h3{
     background-color: #f2ebd1;
 }
 
-.bg-ligthgrey{
-    background-color: #f9f9f9;
-}
-
 .home-picto{
     max-height: 180px;
     display: block;
@@ -433,7 +429,7 @@ h3{
 
 .nous h2{
     color: #75b48d;
-    background-color: #f2ebd1;
+    background-color: #fff;
     position: absolute;
     top: 15px;
     left: 21px;
@@ -445,13 +441,12 @@ h3{
 .nous > div{
     padding: 25px 25px 10px;
     margin: 20px;
-    border: 8px solid #fff;
+    border: 8px solid #f2ebd1;
     border-radius: 10px;
 }
 
 .nous-valeurs{
     width: min-content !important;
-    background-color: white;
     align-self: center;
     padding: 25px 0px;
     border-radius: 10%;
@@ -503,6 +498,57 @@ h3{
 
 .nous .show-for-mobile{
     display: block;
+}
+
+.post-list{
+    display: block;
+}
+
+.post-list > li{
+    /* background-color: white;
+    border: 1px solid #2e2e2e;
+    padding: 20px; */
+    border-radius: 8px;
+    margin: 0 auto 30px;
+    max-width: 350px;
+}
+
+.post-list a{
+    color: #2e2e2e;
+    text-decoration: none;
+}
+.post-list .card-title{
+    line-height: 35px;
+}
+
+.post-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.post-container h1{
+   color: #545454;
+   font-size: 4em;
+   font-family: 'Axelle-Regular', 'Arial', sans-serif;
+}
+.post-container h2{
+    font-size: 3em;
+ }
+
+.post-container section{
+    padding: 0;
+}
+
+.post-container img{
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.post-big-img{
+    width: 100%;
+    max-width: 400px;
 }
 
 @media screen and (min-width: 768px) {
@@ -560,6 +606,15 @@ h3{
     }
     .methodo-desc::after{
         width: 40px;
+    }
+
+    .post-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+    .post-list > li{
+        margin-bottom: 0;
     }
 }
 
