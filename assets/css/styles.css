@@ -150,6 +150,9 @@ h3{
 .bg-lightgreen{
     background-color: #f2ebd1;
 }
+.green-text{
+    color: #75b48d;
+}
 
 .home-picto{
     max-height: 180px;
@@ -647,4 +650,111 @@ h3{
     .proposition .col-lg-4{
         width: 32% !important;
     }
+}
+
+
+@media screen and (max-width: 1200px){
+    section.formacilitation {
+        padding: 20px 15px 40px;
+      }
+}
+
+
+.formacilitation h1 .title{
+    font-size: 95px;
+}
+.formacilitation .subtitle{
+    line-height: 40px;
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+}
+.formacilitation h1 img{
+    position: relative;
+    top: -20px;
+}
+@media screen and (max-width: 550px){
+    .formacilitation h1 .title{
+        font-size: 60px;
+    }
+    .formacilitation .subtitle{
+        line-height: 28px;
+        font-size: 40px;
+        top: -15px;
+        left: 40px;
+    }
+    .formacilitation h1 img{
+        position: relative;
+        right: 75px;
+        top: -55px;
+    }
+}
+
+.formacilitation .format img{
+    vertical-align: top;
+    height: 200px;
+}
+.formacilitation .format{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.formacilitation .format p{
+    position: relative;
+}
+.formacilitation .format p::before{
+    position: absolute;
+    top: 9px;
+    left: -13px;
+    content: " ";
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #e77364;
+}
+
+.formacilitation a {
+    color: #e77364;
+}
+ 
+.prix-plein{
+    text-decoration: line-through;
+}
+.premiere-session{
+    width: 170px;
+    top: -30px;
+    left: 210px;
+}
+.premiere-session p{
+    position: absolute;
+    width: 160px;
+    top: 43px;
+    right: 7px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    rotate: 26deg;
+}
+.s-inscrire{
+    width: 160px;
+}
+.s-inscrire span{
+    position: absolute;
+    width: 160px;
+    top: 25px;
+    right: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: #2e2e2e;
+}
+
+hr.formacilitation-spacer{
+    color: #f4ead1;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+}
+.formacilitation li::marker{
+    color: #e77364;
 }
