@@ -554,6 +554,99 @@ h3{
     max-width: 400px;
 }
 
+
+
+
+.format-sm-screen{
+    display: block;
+}
+.format-sm-screen p{
+    margin: 0 20px;
+}
+.format-lg-screen{
+    display: none;
+}
+.formacilitation .format img{
+    vertical-align: top;
+    height: 200px;
+}
+.formacilitation .format{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.formacilitation .format p, .format-lg-screen p{
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.formacilitation .format p::before, .format-lg-screen p::before{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    content: " ";
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #e77364;
+}
+
+.formacilitation a {
+    color: #e77364;
+}
+
+.formacilitation.programme li{
+    margin-left: 40px;
+}
+
+.competence-img{
+    max-width: 250px;
+}
+ 
+.prix-plein{
+    text-decoration: line-through;
+}
+.premiere-session{
+    width: 170px;
+    top: -30px;
+    left: 210px;
+}
+.premiere-session p{
+    position: absolute;
+    width: 160px;
+    top: 43px;
+    right: 7px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    rotate: 26deg;
+}
+.s-inscrire{
+    width: 160px;
+}
+.s-inscrire span{
+    position: absolute;
+    width: 160px;
+    top: 25px;
+    right: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: #2e2e2e;
+}
+
+hr.formacilitation-spacer{
+    color: #f4ead1;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+}
+.formacilitation li::marker{
+    color: #e77364;
+}
+
+
 @media screen and (min-width: 768px) {
     .nous .hide-for-mobile{
         display: block;
@@ -618,6 +711,12 @@ h3{
     }
     .post-list > li{
         margin-bottom: 0;
+    }
+    .format-sm-screen{
+        display: none;
+    }
+    .format-lg-screen{
+        display: block;
     }
 }
 
@@ -688,73 +787,4 @@ h3{
         right: 75px;
         top: -55px;
     }
-}
-
-.formacilitation .format img{
-    vertical-align: top;
-    height: 200px;
-}
-.formacilitation .format{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.formacilitation .format p{
-    position: relative;
-}
-.formacilitation .format p::before{
-    position: absolute;
-    top: 9px;
-    left: -13px;
-    content: " ";
-    height: 7px;
-    width: 7px;
-    border-radius: 50%;
-    background-color: #e77364;
-}
-
-.formacilitation a {
-    color: #e77364;
-}
- 
-.prix-plein{
-    text-decoration: line-through;
-}
-.premiere-session{
-    width: 170px;
-    top: -30px;
-    left: 210px;
-}
-.premiere-session p{
-    position: absolute;
-    width: 160px;
-    top: 43px;
-    right: 7px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    rotate: 26deg;
-}
-.s-inscrire{
-    width: 160px;
-}
-.s-inscrire span{
-    position: absolute;
-    width: 160px;
-    top: 25px;
-    right: 0px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 27px;
-    color: #2e2e2e;
-}
-
-hr.formacilitation-spacer{
-    color: #f4ead1;
-    height: 5px;
-    width: 30%;
-    margin: auto;
-}
-.formacilitation li::marker{
-    color: #e77364;
 }
