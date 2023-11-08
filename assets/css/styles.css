@@ -587,6 +587,9 @@ h3{
     .welcome-section .session-ouverte img{
         top: -120px;
     }
+    .welcome-section{
+        padding-top: 75px;
+    }
 }
 
 
