@@ -602,6 +602,9 @@ h3{
 .format-lg-screen{
     display: none;
 }
+.formacilitation h1{
+    max-width: initial;
+}
 .formacilitation .format img{
     vertical-align: top;
     height: 200px;
