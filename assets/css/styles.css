@@ -555,6 +555,39 @@ h3{
 }
 
 
+.welcome-section .session-ouverte{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.welcome-section .session-ouverte p{
+    position: absolute;
+    right: 12px;
+    top: -45px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 150px;
+    z-index: 1;
+    transform: rotate(19deg);
+    text-align: center;
+}
+.welcome-section .session-ouverte img{
+    position: absolute;
+    right: 0;
+    top: -90px;
+    width: 170px;
+    min-width: auto;
+}
+@media screen and (max-width: 550px){
+    .welcome-section .session-ouverte p{
+        top: -75px;
+    }
+    .welcome-section .session-ouverte img{
+        top: -120px;
+    }
+}
 
 
 .format-sm-screen{
