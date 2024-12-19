@@ -143,6 +143,19 @@ layout: page
   </div>
 </section>
 
+<section class="py-5 bg-lightgreen">
+  <h2 class="pt-4">Nos articles</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.display == true %}
+        {% include post_preview.html content=post %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <div class="text-center">
+  </div>
+</section>
+
 <section class="py-md-5" id="contact">
   <h2 class="pt-4">Nous contacter</h2>
   <div class="row justify-content-evenly pb-5">
