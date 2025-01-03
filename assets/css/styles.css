@@ -17,7 +17,8 @@ body{
 
 .police{
     font-family: 'Axelle-Regular', 'Arial', sans-serif;
-    font-size: 1.7em;
+    font-weight: bold;
+    font-size: 2.1em;
 }
 
 .number{
@@ -62,7 +63,7 @@ nav .bg-white.collapse.show{
 }
 
 main{
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 footer{
@@ -114,6 +115,20 @@ h4{
     font-weight: bold;
 }
 
+.explicitation{
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+    font-size: 30px;
+    text-align: start;
+}
+
+.explicitation>span{
+    padding: 0 4px;
+    vertical-align: middle;
+    font-style: italic;
+    /*background-color: #f2ebd1;*/
+}
+
+
 .red-text{
     color: #e77364;
 }
@@ -126,6 +141,32 @@ h4{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.welcome-section img{
+    width: 100%;
+    min-width: 240px;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.welcome-section p{
+    font-size: 12px;
+    font-family: verdana;
+    font-style: italic;
+}
+
+.teamDesc{
+    padding-left: 29%;
+    padding-right: 29%;
+    margin-bottom: 3%;
+}
+
+.teamPict{
+    padding-left: 22%;
+    padding-right: 22%;
+    margin-bottom: 3%;
 }
 
 .teamName{
@@ -143,18 +184,10 @@ h4{
     max-width: 900px;
 }
 
-.welcome-section img{
-    width: 100%;
-    min-width: 240px;
-    max-width: 600px;
-    display: block;
-    margin: 0 auto;
-}
-
-.welcome-section p{
-    font-size: 12px;
-    font-family: verdana;
-    font-style: italic;
+.refText{
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+    font-size: 15px;
+    max-width: 900px;
 }
 
 /* .see-more{
@@ -271,7 +304,11 @@ h4{
     font-size: 50px;
     letter-spacing: -1px;   
     line-height: 50px;
-    margin: 20px 0;
+}
+
+.recherche{
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .section-contact{
@@ -744,7 +781,7 @@ hr.formacilitation-spacer{
     }
 
     .row-proposition{
-        padding-top: 125px;
+        padding-top: 0px;
     }
 
     .mesurePousse{
