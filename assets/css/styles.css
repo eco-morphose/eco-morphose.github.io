@@ -153,8 +153,8 @@ p{
 }
 
 .teamDesc{
-    width: 70%;
-    margin: 0 auto;
+    max-width: 550px;
+    margin: 0px auto 20px;
 }
 
 .teamPict{
