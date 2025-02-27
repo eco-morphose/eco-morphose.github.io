@@ -606,7 +606,7 @@ h4{
 
 @media screen and (max-width: 550px){
     .welcome-section{
-        padding-top: 75px;
+        padding-top: 55px;
     }
 }
 
@@ -718,7 +718,7 @@ hr.formacilitation-spacer{
     }
 
     section{
-        padding: 20px 120px 40px;
+        padding: 0px 120px 40px;
     }
 
     h2{
