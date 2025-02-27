@@ -107,6 +107,7 @@ h4{
     color: #676968;
     font-size: 15px;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 p{
@@ -137,8 +138,13 @@ p{
     margin: 0 auto;
 }
 
+.welcome-section .comment{
+    margin-top: 50px;
+}
+
 .welcome-section .comment h2{
     margin: 70px 0 10px;
+    display: none;
 }
 
 .welcome-section .comment .row{
