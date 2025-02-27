@@ -336,6 +336,9 @@ p{
         display: flex;
         flex-direction: column-reverse;
     }
+    .teamName{
+        padding-bottom: 40px;
+    }
 }
 
 
