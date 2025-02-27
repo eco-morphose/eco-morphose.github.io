@@ -115,7 +115,7 @@ h4{
 }
 
 .welcome-section{
-    padding: 35px 180px 70px;
+    padding: 50px 180px 70px;
 }
 
 .welcome-section h1{
@@ -133,10 +133,8 @@ h4{
     margin: 0 auto;
 }
 
-.welcome-section p{
-    font-size: 12px;
-    font-family: verdana;
-    font-style: italic;
+.welcome-section .comment h2{
+    margin: 60px 0 0px;
 }
 
 .teamDesc{
