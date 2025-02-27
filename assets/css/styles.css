@@ -111,6 +111,11 @@ h4{
     font-weight: bold;
 }
 
+p{
+    padding: 0;
+    margin: 0;
+}
+
 .red-text{
     color: #e77364;
 }
@@ -141,11 +146,6 @@ h4{
 .welcome-section .comment .row{
     --bs-gutter-x: 60px;
 }
-
-
-
-
-
 
 .teamDesc{
     padding-left: 29%;
