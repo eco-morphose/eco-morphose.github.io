@@ -84,14 +84,9 @@ article{
 
 h1{
     font-family: 'Trebuchet MS', 'Verdana', sans-serif;
-    font-size: 15px;
+    /* font-size: 15px;
     text-align: center;
-    max-width: 900px;
-}
-
-h1>span{
-    padding: 0 4px;
-    background-color: #f2ebd1;
+    max-width: 900px; */
 }
 
 h2{
@@ -115,33 +110,19 @@ h4{
     font-weight: bold;
 }
 
-.explicitation{
-    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
-    font-size: 28px;
-    text-align: start;
-}
-
-.explicitation>span{
-    padding: 0 4px;
-    vertical-align: middle;
-    font-style: italic;
-    /*background-color: #f2ebd1;*/
-}
-
-
 .red-text{
     color: #e77364;
 }
 
 .welcome-section{
-    position: relative;
-    height: calc(100vh -100px);
-    min-height: max-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25vh 180px 70px;
+    padding: 35px 180px 70px;
+}
+
+.welcome-section h1{
+    font-size: 24px;
+    padding: 0 4px;
+    vertical-align: middle;
+    font-style: italic;
 }
 
 .welcome-section img{
@@ -621,38 +602,9 @@ h4{
 }
 
 
-.welcome-section .session-ouverte{
-    position: relative;
-    display: flex;
-    justify-content: end;
-    width: 100%;
-}
-.welcome-section .session-ouverte p{
-    position: absolute;
-    right: 12px;
-    top: -45px;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    width: 150px;
-    z-index: 1;
-    transform: rotate(19deg);
-    text-align: center;
-}
-.welcome-section .session-ouverte img{
-    position: absolute;
-    right: 0;
-    top: -90px;
-    width: 170px;
-    min-width: auto;
-}
+
+
 @media screen and (max-width: 550px){
-    .welcome-section .session-ouverte p{
-        top: -75px;
-    }
-    .welcome-section .session-ouverte img{
-        top: -120px;
-    }
     .welcome-section{
         padding-top: 75px;
     }
@@ -776,10 +728,6 @@ hr.formacilitation-spacer{
     .welcome-section img{
         /* width: 90%;  */
         width: 100%;
-    }
-
-    .welcome-section p{
-        font-size: 12px
     }
 
     .row-proposition{
